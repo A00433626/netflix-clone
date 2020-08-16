@@ -2,12 +2,14 @@ import React from "react";
 import "./App.css";
 import Row from "./Row.js";
 import requests from "./request";
+import Banner from "./Banner";
 function App() {
   return (
-    <div className="App">
+    <div className="app">
       <h1>Netflix Clone</h1>
       {/* Nav Bar */}
       {/*Banner */}
+      <Banner />
       {/* Popular Movie component */}
       <Row
         title="NETFLIX ORIGINALS"
