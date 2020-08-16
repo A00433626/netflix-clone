@@ -1,8 +1,8 @@
 //API ENDPOINTS
 
 const APIKEY = "6a99a0449164966ff862142970dfa90d";
-const API_READ_ACCESS =
-  "eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiI2YTk5YTA0NDkxNjQ5NjZmZjg2MjE0Mjk3MGRmYTkwZCIsInN1YiI6IjVmMzcyZDNjMzk0YTg3MDAzMzhhMzVhYyIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.EzCgZ_Y1etpXXab85Vf9RAILwkAWn_kJIlSJcVv6PN4";
+// const API_READ_ACCESS =
+//   "eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiI2YTk5YTA0NDkxNjQ5NjZmZjg2MjE0Mjk3MGRmYTkwZCIsInN1YiI6IjVmMzcyZDNjMzk0YTg3MDAzMzhhMzVhYyIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.EzCgZ_Y1etpXXab85Vf9RAILwkAWn_kJIlSJcVv6PN4";
 
 const requests = {
   fetchTrending: `/trending/all/week?api_key=${APIKEY}&language=en-US`,
