@@ -22,14 +22,16 @@ const Banner = () => {
   }
   console.log(movie.backdrop_path);
   // const path =  `https:image.tmdb.org/t/p/original${movie?.backdrop_path}`;
-  const path = `https:image.tmdb.org/t/p/original${movie?.backdrop_path}`;
-  console.log(path);
+  const path = `url("https:image.tmdb.org/t/p/original/${
+    movie?.backdrop_path || movie?.poster_path
+  }")`;
+  // console.log(path, movie);
   return (
     <header
       className="banner"
       style={{
         backgroundSize: "cover",
-        backgroundImage: `url("${path}")`,
+        backgroundImage: path,
         backgroundPosition: "center center",
       }}
     >
