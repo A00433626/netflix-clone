@@ -18,7 +18,6 @@ const Row = (props) => {
     }
     fetchMovieData();
   }, [props.fetchUrl]);
-  console.log(movies);
   const opts = {
     height: "390",
     width: "100%",
