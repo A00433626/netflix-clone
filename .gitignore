@@ -8,6 +8,7 @@ axios.js
 
 # testing
 /coverage
+/public
 
 # production
 /build
