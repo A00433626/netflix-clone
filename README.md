@@ -22,11 +22,6 @@ Row.js
 
 I decided not to use Redux for this project because it was fairly small in scale, and managing state was not an issue with only three components.
 
-
-
-
-
-
 Dependencies
 A quick rundown of some dependencies I used for this project:
 
